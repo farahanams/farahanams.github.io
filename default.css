@@ -10,6 +10,8 @@
   --themeDotBorder: #24292e;
   --previewBg: #c1c1c1;
   --previewShadow: #f0ead6;
+
+  --buttonColor: black;
 }
 
 html,
@@ -338,6 +340,37 @@ h6 {
 .post-intro {
   color: #4b5156;
   font-size: 15px;
+}
+
+#contact-form {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid var(--borderColor);
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--mainColor);
+  margin-bottom: 50px;
+}
+
+.input-field {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: var(--secondaryColor);
+  border-radius: 5px;
+  border: 1px solid var(--borderColor);
+  font-size: 14px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: var(--buttonColor);
+  border: none;
 }
 @media screen and (max-width: 1200px) {
   .main-container {
