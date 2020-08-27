@@ -4,12 +4,12 @@
 
   --borderColor: #1d1520;
 
-  --mainText: white;
+  --mainText: #fff;
   --secondaryText: #eeeeee;
 
   --themeDotBorder: #fff;
   --previewBg: rgb(29, 21, 32, 0.8);
   --previewShadow: #2b202f;
 
-  --buttonColor: #669966;
+  --buttonColor: #8534a3;
 }
